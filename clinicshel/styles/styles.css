@@ -1,0 +1,202 @@
+@charset "utf-8";
+body {
+  margin: 0;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/*container*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.body-wrapper {
+  height: 753px;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro__inner {
+  width: 100%;
+  max-width: 880px;
+  margin: 150px auto;
+}
+
+.intro__title {
+  color: #000;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+
+}
+.intro__suptitle {
+  font-size: 72px;
+  color: #000;
+  font-family: 'Kaushan Script',
+  cursive;
+  text-align: center;
+}
+
+/*Опис About*/
+.body-about{
+  height: 753px;
+  background: url(../images/about2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro__about {
+  font-size: 60px;
+  color: #000;
+  font-family: 'Kaushan Script',
+  cursive;
+  text-align: center;
+
+
+}
+
+
+.intro__titles {
+  font-size: 20px;
+  color: #000;
+  line-height: 1;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.intro__txt {
+  font-size: 20px;
+  color: #000;
+  line-height: 1;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.intro__txt_{
+   font-size: 20px;
+  color: #000;
+  line-height: 1;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/*Опис contact*/
+.container_contact {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.body-wrapper_cont {
+  height: 753px;
+  background: url(../images/contact.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+.contact {
+    font-size: 35px;
+  color: #000;
+  line-height: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Kaushan Script',
+  cursive;
+}
+.cont {
+  font-size: 20px;
+  color: #000;
+  line-height: 3;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.number {
+  font-size: 20px;
+  color: #000;
+  line-height: 7;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.adress {
+   font-size: 20px;
+  color: #000;
+  line-height: 7;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+/*header*/
+.header {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+}
+
+/*nav*/
+.nav {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  transition: color .2s linear;
+}
+
+.nav__link:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  display: none;
+  background-color: #000;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.nav__link:hover {
+  color: #ffa500;
+}
+
+.nav__link:hover:after {
+  display: block;
+}
