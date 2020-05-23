@@ -7,7 +7,7 @@ if(isset($_REQUEST['Submit'])){
   $last_name = $_REQUEST['last_name'];
   $likar = $_REQUEST['likar'];
   $workdays = $_REQUEST['workdays'];
-  $sql = "INSERT INTO appointments(email, first_name, last_name, likar, workdays)
+  $sql = "INSERT INTO appointments(email, first_name, last_name, idlikar, idworkdays)
   VALUES('$email', '$first_name', '$last_name', '$likar', '$workdays')"; 
 
   if ($conn->query($sql) === FALSE)
